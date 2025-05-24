@@ -105,32 +105,34 @@ const Hero = () => {
             </motion.div>
           </div>
           {/* third-div-section  */}
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 1.2,
-            }}
-            className=" text-light-orange mt-[100px] md:mt-0 p-4 space-y-28"
-          >
-            <h1 className="text-7xl font-bold leading-tight ml-14 opacity-0">
-              Blvck Tumbler
-            </h1>
-            <div className="relative">
-              <div className="relative z-10 space-y-4">
-                <h1 className="text-2xl">Blvck Tumbler</h1>
-                <h1 className="text-sm opacity-55 leading-loose">
-                  "Black Tumbler – Sleek, durable, and stylish. Keeps drinks hot
-                  or cold for hours with double-wall insulation. The perfect
-                  eco-friendly companion for home, work, or travel."
-                </h1>
+          <div className="hidden lg:block">
+            <motion.div
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                damping: 10,
+                delay: 1.2,
+              }}
+              className=" text-light-orange mt-[100px] md:mt-0 p-4 space-y-28"
+            >
+              <h1 className="text-7xl font-bold leading-tight ml-14 opacity-0">
+                Blvck Tumbler
+              </h1>
+              <div className="relative">
+                <div className="relative z-10 space-y-4">
+                  <h1 className="text-2xl">Blvck Tumbler</h1>
+                  <h1 className="text-sm opacity-55 leading-loose">
+                    "Black Tumbler – Sleek, durable, and stylish. Keeps drinks
+                    hot or cold for hours with double-wall insulation. The
+                    perfect eco-friendly companion for home, work, or travel."
+                  </h1>
+                </div>
+                <div className="absolute -top-6 -right-10 w-[250px] h-[160px] bg-dark-gray/50"></div>
               </div>
-              <div className="absolute -top-6 -right-10 w-[250px] h-[160px] bg-dark-gray/50"></div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </div>
 
         {/* sidebar menu section  */}
