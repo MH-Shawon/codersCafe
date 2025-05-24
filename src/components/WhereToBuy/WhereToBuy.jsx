@@ -38,7 +38,7 @@ const WhereToBuy = () => {
               <input
                 type="text"
                 placeholder="Name"
-                className="input-style w-full md:w-[150px]"
+                className="input-style w-full lg:w-[150px]"
                 required
               />
 
@@ -70,7 +70,7 @@ const WhereToBuy = () => {
               <input
                 type="text"
                 placeholder="Zipcode"
-                className="input-style w-full md:w-[150px]"
+                className="input-style w-full lg:w-[150px]"
                 required
               />
             </motion.div>

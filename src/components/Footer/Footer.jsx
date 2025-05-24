@@ -127,14 +127,8 @@ const Footer = () => {
         </div>
         {/* copy right section  */}
         <div
-          initial={{ opacity: 0, y: 100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{
-            delay: 0.8,
-            duration: 0.6,
-          }}
-          className="border-t-2 border-white mt-8 pt-8 text-center text-sm"
+          
+          className="border-t-2 border-white mt-8 pt-8 text-center"
         >
           Copyright © 2025 CodersCafe. All rights reserved.
         </div>
