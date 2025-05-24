@@ -26,7 +26,7 @@ const Hero = () => {
           <div className=" text-light-orange mt-[100px] md:mt-0 space-y-28">
             <motion.h1
               initial={{ opacity: 0, y: -100 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{
                 type: "spring",
                 stiffness: 100,

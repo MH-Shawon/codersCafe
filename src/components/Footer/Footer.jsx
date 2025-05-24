@@ -126,7 +126,7 @@ const Footer = () => {
           </motion.div>
         </div>
         {/* copy right section  */}
-        <motion.div
+        <div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
@@ -137,7 +137,7 @@ const Footer = () => {
           className="border-t-2 border-white mt-8 pt-8 text-center text-sm"
         >
           Copyright © 2025 CodersCafe. All rights reserved.
-        </motion.div>
+        </div>
       </div>
     </div>
   );
