@@ -14,7 +14,7 @@ const Navbar = ({ sidebarOpen, setSidebarOpen }) => {
               stiffness: 100,
               damping: 10,
               delay: 0.2,
-          }} className="absolute top-0 left-0 w-full pt-10  text-white z-40 container">
+          }} className="absolute top-0 left-0 w-full pt-10  text-white z-[9990] container">
       
         <div className="flex items-center justify-between ">
           {/* logo section  */}
