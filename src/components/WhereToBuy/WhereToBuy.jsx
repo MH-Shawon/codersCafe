@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 const WhereToBuy = () => {
   return (
     <div className="container my-32 ">
-      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
+      <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 gap-8 place-items-center">
         {/* form section  */}
 
         <div className="space-y-8">
